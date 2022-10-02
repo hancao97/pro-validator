@@ -1,0 +1,15 @@
+{
+  "name": "pro-validator",
+  "version": "1.0.0",
+  "description": "better enterprise validator framworks",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hancao97",
+  "license": "ISC",
+  "dependencies": {
+    "validator": "13.7.0"
+  }
+}
