@@ -1,19 +1,3 @@
-// import judger from "../judger/index.js";
-// const config = {
-//   judger: [
-//     { 
-//       name: 'xxx',
-//       func: () => { return judger.isName(str, options)} 
-//     }
-//   ],
-//   validator: [
-//     {
-//       name: 'xxx,
-//       judgers:[],
-//       messages: []
-//     }
-//   ]
-// }
 import privateJudger from "../judger/index.js";
 const generator = (configs = {}) => {
   const customJudeger = { ...privateJudger };
@@ -30,7 +14,6 @@ const generator = (configs = {}) => {
       return '';
     }
   }
-
   return {
     judger: customJudeger,
     validator: customValidator
